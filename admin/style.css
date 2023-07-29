@@ -1,0 +1,25 @@
+body{
+	margin: 0%;
+}
+.tab-bar{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.form{
+	margin: 0px 0px 0px 50px;
+}
+.form input{
+	padding: 5px;
+	border-bottom: 2px solid transparent;
+	background-color: transparent;
+	color: white;
+	font-weight: 600;
+	cursor:pointer;
+}
+.form input:hover{
+	border-bottom: 2px solid white;
+}

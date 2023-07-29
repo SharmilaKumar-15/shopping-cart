@@ -1,0 +1,33 @@
+<?xml  version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+
+	<servlet>
+        <servlet-name>update</servlet-name>
+	    <servlet-class>update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>update</servlet-name>
+	    <url-pattern>/update</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>delete</servlet-name>
+	    <servlet-class>delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>delete</servlet-name>
+	    <url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+        <servlet-name>view</servlet-name>
+	    <servlet-class>view</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	    <servlet-name>view</servlet-name>
+	    <url-pattern>/view</url-pattern>
+	</servlet-mapping>
+
+</web-app>

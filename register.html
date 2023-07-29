@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+
+    <title>Welcome!!</title>>
+
+    <style>
+	   body{
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+         }
+
+         form{
+            display: flex;
+         }
+
+         .outside-container{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            border: 4px solid black;
+            padding: 10px;
+         }
+
+         .inside-container{
+            display: flex;
+            flex:1;
+            padding: 4px;
+         }
+
+         label, input{
+            flex:1;
+            padding: 4px;
+         }
+
+         .inside-container.submit{
+            width: 10%;
+            margin: auto;
+         }
+     </style>
+
+    <body>
+        <form action ="./register" method="get">
+            <div class='outside-container'>
+                <div class='inside-container'>
+                    <label>Enter the username</label>
+                    <input type="text" name="username">
+                </div>
+                
+                <div class='inside-container'>
+                    <label>Enter ur password</label>
+                    <input type="text" name="password" >
+                </div>
+                
+                <div class='inside-container'>
+                    <label>Enter ur emailid</label>
+                    <input type="text" name="emailid">
+                </div>
+
+                <div class='inside-container'>
+                    <label>Enter ur phonenumber</label>
+                    <input type="text" name="phonenumber">
+                </div>
+
+                <div class='inside-container submit'>
+                    <input type="submit" id="user" name="submit">
+                </div>
+            </div>
+    </form>
+</body>
+</html>
